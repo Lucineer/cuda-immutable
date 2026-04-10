@@ -1,0 +1,8 @@
+[package]
+name = "cuda-immutable"
+version = "0.1.0"
+edition = "2021"
+description = "Immutable data structures — persistent vectors, hash maps with structural sharing, and efficient snapshot/isolation for agent state"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
